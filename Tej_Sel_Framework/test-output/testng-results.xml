@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Footer Page Text=© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+    </line>
+    <line>
+      <![CDATA[Lable Of Inventory Page=Products]]>
+    </line>
+    <line>
+      <![CDATA[Visibility Of Twitter Logo=true]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-13T16:45:58 IST" name="Group_Suite" finished-at="2023-12-13T16:46:40 IST" duration-ms="42959">
+    <groups>
+      <group name="Sanity">
+        <method signature="Inventory_page_2_test.verifyFooterText()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" name="verifyFooterText" class="testCases.Inventory_page_2_test"/>
+        <method signature="Inventory_page_2_test.verifyProductLable()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" name="verifyProductLable" class="testCases.Inventory_page_2_test"/>
+        <method signature="LoginPageTest.VerifyTitleOfApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d]" name="VerifyTitleOfApplication" class="testCases.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyURLofApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d]" name="VerifyURLofApplication" class="testCases.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Retesting">
+        <method signature="Inventory_page_2_test.verifyTwitterLogo()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" name="verifyTwitterLogo" class="testCases.Inventory_page_2_test"/>
+        <method signature="LoginPageTest.VerifyURLofApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d]" name="VerifyURLofApplication" class="testCases.LoginPageTest"/>
+      </group> <!-- Retesting -->
+    </groups>
+    <test started-at="2023-12-13T16:45:58 IST" name="GroupTest" finished-at="2023-12-13T16:46:40 IST" duration-ms="42959">
+      <class name="testCases.Inventory_page_2_test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:18 IST" name="setUp" finished-at="2023-12-13T16:46:25 IST" duration-ms="7113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterText()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:25 IST" name="verifyFooterText" finished-at="2023-12-13T16:46:25 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Footer Page Text=© 2023 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFooterText -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:25 IST" name="CloseBrowser" finished-at="2023-12-13T16:46:25 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:25 IST" name="setUp" finished-at="2023-12-13T16:46:32 IST" duration-ms="7074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductLable()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:32 IST" name="verifyProductLable" finished-at="2023-12-13T16:46:32 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lable Of Inventory Page=Products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductLable -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:32 IST" name="CloseBrowser" finished-at="2023-12-13T16:46:33 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:33 IST" name="setUp" finished-at="2023-12-13T16:46:40 IST" duration-ms="6996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTwitterLogo()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:40 IST" name="verifyTwitterLogo" finished-at="2023-12-13T16:46:40 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Visibility Of Twitter Logo=true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterLogo -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.Inventory_page_2_test@658c5a19]" started-at="2023-12-13T16:46:40 IST" name="CloseBrowser" finished-at="2023-12-13T16:46:40 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCases.Inventory_page_2_test -->
+      <class name="testCases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:45:58 IST" name="setUp" finished-at="2023-12-13T16:46:08 IST" duration-ms="10865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyTitleOfApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:46:08 IST" name="VerifyTitleOfApplication" finished-at="2023-12-13T16:46:09 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleOfApplication -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:46:09 IST" name="CloseBrowser" finished-at="2023-12-13T16:46:09 IST" duration-ms="550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitleOfApplication status=SUCCESS method=LoginPageTest.VerifyTitleOfApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:46:09 IST" name="setUp" finished-at="2023-12-13T16:46:17 IST" duration-ms="8151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyURLofApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:46:17 IST" name="VerifyURLofApplication" finished-at="2023-12-13T16:46:17 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyURLofApplication -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@1c39680d]" started-at="2023-12-13T16:46:17 IST" name="CloseBrowser" finished-at="2023-12-13T16:46:18 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyURLofApplication status=SUCCESS method=LoginPageTest.VerifyURLofApplication()[pri:0, instance:testCases.LoginPageTest@1c39680d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCases.LoginPageTest -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- Group_Suite -->
+</testng-results>
